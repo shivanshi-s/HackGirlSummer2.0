@@ -61,6 +61,12 @@ body {
 .landing {
     height:100vh;
     display: flex;
+    @media screen and (max-width:1013px)
+{
+    height:50vh;
+    margin:auto;
+    font-size:auto;
+}
 }
 .landing .img {
     background: url(./imgs/womxn.svg)no-repeat;
