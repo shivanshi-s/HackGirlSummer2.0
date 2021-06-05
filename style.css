@@ -54,6 +54,7 @@ body {
     text-decoration: none;
     color: #0a0909;
 }
+
 /*------ NAV OVER ----------*/
 
 /* ----LANDING PAGE STARTS ------ */
@@ -151,5 +152,26 @@ body {
     padding: 3% ;
     margin: 0;
 }
-
 /* --------EVENTS ENDS--------------- */
+
+/* ---------CONTACT STARTS----------------- */
+.google-form {
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.google-form .form-text {
+    line-height: 20px;
+    color: black;
+}
+.container-form {
+   margin: 10% auto;
+   border: 5px solid #b32020;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------CONTACT ENDS------------- */
+
