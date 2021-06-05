@@ -127,21 +127,29 @@ body {
 /* -----FOOTER ENDS-------------- */
 
 /* --------EVENTS page START ------------- */
-/* .slider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 8px;
-    height: 5px;
-    border-radius: 10px;
-    
+.container-img  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vh;
 }
-.slides {
+
+.container-img .img1 img {
+    height: 90%;
     width: 100%;
-    height: 10px;
-    display: flex;
+    padding: 3% ;
+    margin: 3rem auto;
 }
-.slides input {
-    display: none;
-} */
+.container-img .img-2 img {
+    height: 10%;
+    width: 100%;
+    padding: 3% ;
+    margin: auto;
+}
+.container-img .img-3 img {
+    height: 10%;
+    width: 100%;
+    padding: 3% ;
+    margin: 0;
+}
+
 /* --------EVENTS ENDS--------------- */
