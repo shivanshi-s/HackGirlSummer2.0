@@ -54,19 +54,23 @@ body {
     text-decoration: none;
     color: #0a0909;
 }
+@media only screen and (max-width: 400px)
+{
+    .navbar img {
+        display: none;
+    }
+    .navbar .navbar-head, .navbar .navbar-nav .navbar-item
+    {
+        font-size: 0.7rem;
+    }
+}
 
 /*------ NAV OVER ----------*/
 
 /* ----LANDING PAGE STARTS ------ */
 .landing {
-    height:100vh;
+  height:100vh;
     display: flex;
-    @media screen and (max-width:1013px)
-{
-    height:50vh;
-    margin:auto;
-    font-size:auto;
-}
 }
 .landing .img {
     background: url(./imgs/womxn.svg)no-repeat;
@@ -114,6 +118,21 @@ body {
     font-size: 1.5rem;
     letter-spacing : 0.3rem;
     line-height: 2rem;
+    overflow: hidden;
+}
+@media only screen and (max-width: 400px)
+{   
+    .landing .text {
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+    .about-container .about-text {
+        font-size: 1rem;
+        letter-spacing: normal;
+        max-width:auto;
+        padding: 0%;
+    }
+    
 }
 /* ----VISION PAGE ENDS--------- */
 
@@ -125,7 +144,7 @@ body {
  text-align: center;
  border-top-right-radius: 1rem;
  font-family: 'Scada',sans-serif;
- position: -webkit-sticky;
+ position:relative;
 }
 .footer .footer-links {
     text-decoration: none;
@@ -157,6 +176,13 @@ body {
     width: 100%;
     padding: 3% ;
     margin: 0;
+}
+@media only screen and (max-width: 400px)
+{
+    .container-img .img1 img, .container-img .img-2 img, .container-img .img-3 img{
+        margin: auto;
+        
+    }
 }
 /* --------EVENTS ENDS--------------- */
 
